@@ -28,9 +28,11 @@ let g:airline_left_sep = ''
 let g:alirline_right_sep = ''
 
 " always show tabs
-
 set noshowmode
 
-nnoremap <leader>l <cmd>CHADopen<cr>
+nnoremap <C-t> :CHADopen<CR>
+
+
+
 
 
